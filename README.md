@@ -21,9 +21,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 > You may need to reopen your terminal!
 
 #### 4. Check installation
-```g++ --version
-```
+```g++ --version```
 
 #### 5. Compile using thread
-```g++ -std=c++17 -pthread main.cpp -o main.exe
-```
+```g++ -std=c++17 -pthread main.cpp -o main.exe```
