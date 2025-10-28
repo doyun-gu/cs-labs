@@ -204,3 +204,18 @@ Use `std::chrono::high_resolution_clock` to measure and compare the time it take
 * `auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);`: Calculates the difference between two time points and casts it into a specific unit (like milliseconds, microseconds, or seconds).
 * `duration.count()`: Returns the numerical value of the duration.
 * **Observation**: On a multi-core processor, the concurrent execution time should be significantly faster (ideally, close to half the time) than the sequential execution.
+
+### Summary Table
+
+## C++ Threading Quick Reference
+
+| Step | Goal / Concept | Primary C++ Tools | Key Header(s) |
+| :--- | :--- | :--- | :--- |
+| **1** | **Create & Wait** | `std::thread t(func);`<br>`t.join();` | `<thread>` |
+| **2** | **Pass Arguments** | `std::thread(func, arg1, arg2);`<br>`std::ref(var_by_ref);` | `<thread>` |
+| **3** | **Pause Thread** | `std::this_thread::sleep_for(ms);` | `<thread>`, `<chrono>` |
+| **4** | **Manage Multiple** | `std::vector<std::thread> vec;`<br>`vec.push_back(std::thread(f));` | `<thread>`, `<vector>` |
+| **5** | **Protect Shared Data** (Mutex) | `std::mutex mtx;`<br>`std::lock_guard<std::mutex> lock(mtx);` | `<mutex>` |
+| **6** | **Cooperative Scheduling** (Hint) | `std::this_thread::yield();` | `<thread>` |
+| **7** | **Task-Based Return Value** | `std::future<T> f = std::async(func);`<br>`T result = f.get();` | `<future>` |
+| **8** | **Measure Time** | `auto start = high_resolution_clock::now();`<br>`auto ms = duration_cast<ms>(end-start);` | `<chrono>` |
