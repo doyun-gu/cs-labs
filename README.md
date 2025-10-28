@@ -205,9 +205,7 @@ Use `std::chrono::high_resolution_clock` to measure and compare the time it take
 * `duration.count()`: Returns the numerical value of the duration.
 * **Observation**: On a multi-core processor, the concurrent execution time should be significantly faster (ideally, close to half the time) than the sequential execution.
 
-### Summary Table
-
-## C++ Threading Quick Reference
+### C++ Threading Quick Reference
 
 | Step | Goal / Concept | Primary C++ Tools | Key Header(s) |
 | :--- | :--- | :--- | :--- |
