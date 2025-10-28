@@ -1,0 +1,31 @@
+# C/C++ compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.gch
+*.out
+
+# Windows executables
+*.exe
+*.ilk
+*.pdb
+
+# Output files from your lab steps
+main
+step1
+step2
+step3
+step4
+step5
+step6
+step7
+step8
+
+# Common IDE / Build system folders
+.vscode/
+cmake-build-debug/
+build/
+.idea/
