@@ -13,16 +13,9 @@
 *.ilk
 *.pdb
 
-# Output files from your lab steps
-main
-step1
-step2
-step3
-step4
-step5
-step6
-step7
-step8
+# Compiled executables from your labs (Mac/Linux)
+Lab1/lab-q1
+lab-q1
 
 # Common IDE / Build system folders
 .vscode/
