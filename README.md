@@ -18,7 +18,8 @@ winget install MSYS2.MSYS2
 ```
 
 #### 2. Run `MSYS2 UCRT64` Terminal
-> [[!NOTE]
+
+> [!NOTE]
 > This is not your standard Command Prompt or PowerShell! YOu must run the **"MSYS2 UCRT64"** application from the Start Menu.
 
 #### 3. Check update & toolchain at `MSYS2` Terminal
