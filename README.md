@@ -1,4 +1,4 @@
-# Concurrent Systems Lab
+# Concurrent Systems Lab (2025-26)
 ## Electrical and Electronics Engineering | University of Manchester
 
 This repository contains the lab exercises for the Concurrent Systems module, focusing on C++ threading. It covers setup for both Windows and macOS, followed by 8 progressive steps to understand and implement C++ concurrency.
