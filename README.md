@@ -82,7 +82,7 @@ Homebrew installs `g++` with a version number to avoid conflicting with the syst
 
 ## Threading (8 Steps)
 
-Here are the 8 lab exercises, from basic thread creation to synchronisation and futures.
+This explains 8 steps from basic thread creation to synchronisation and futures.
 
 ### Step 1: Create and Joining a Thread
 
